@@ -1,0 +1,6 @@
+build:
+  docker:
+    base: Dockerfile
+    worker:
+      dockerfile: Dockerfile
+    web: Dockerfile
